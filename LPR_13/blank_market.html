@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blank market</title>
+    <style>
+        
+        .header{
+            border-bottom: solid gray 2px;
+        }
+        h1{
+            margin: 1%;
+        }
+        
+        .df-tovar{
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .tovar{
+            margin: 0 auto;
+        }
+        #adres{
+            margin-top: 3%;
+        }
+        #sub{
+            padding: 0.2% 1%;
+            color: black;
+            font-size: 20px;
+            margin-top: 2%;
+            margin-right: 1%;
+            background-color: #2cc92cb0;
+            border: solid black 1px;
+            border-radius: 5px;
+        }
+        #clear{
+            padding: 0.2% 1%;
+            color: black;
+            font-size: 20px;
+            margin-top: 2%;
+            background-color: rgba(214, 12, 12, 0.548);
+            border: solid black 1px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><i><h1>Мини-маркет</h1></i></div>
+    </header>
+    <main class="main">
+        <form action="">
+            <div class="df-tovar">
+                <div class="tovar">     <p><input type="checkbox"> <b>sd-card 16Gb: 3.600 тг</b></p>                </div>
+                <div class="tovar">     <p><input type="checkbox"> <b>web-camera: 10.500 тг</b></p>                 </div>
+                <div class="tovar">     <p><input type="checkbox"> <b>RAM 8gb: 8.200 тг</b></p>                     </div>
+                <div class="tovar">     <p><input type="checkbox"> <b>SSD 480Gb Kingston: 15.799 тг</b></p>         </div>
+                <div class="tovar">     <p><input type="checkbox"> <b>Keyboard Mechanic M-310: 22.990 тг</b></p>    </div>
+            </div>
+            <p id="adres"><b> &#127970; Адрес доставки</b> <input type="text" size="30" name="adres">.</p>
+            <p id="cash"><b> &#128181; Способ оплаты</b> 
+                <input type="radio" name="cash" id="">наличными курьеру 
+                <input type="radio" name="cash" id="">банковский перевод
+            </p>
+            <p class="comment"><b> &#129534; Мнение о сайте</b>
+                <select name="" id="">
+                    <option value="v_g">Отлично &#128516;</option>
+                    <option value="g">Хорошо &#128513;</option>
+                    <option value="n">Посредственно &#129300;</option>
+                    <option value="b">Плохо &#128533;</option>
+                    <option value="v_b">Очень плохо &#128531;</option>
+                </select>
+            </p>
+            <input type="submit" value="Заказать!" id="sub"> <input type="submit" value="Очистить." id="clear">
+        </form>
+    </main>
+</body>
+</html>

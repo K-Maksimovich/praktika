@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        .eee .bbb, .kkk{
+            color: red;
+        }
+
+
+        .success{
+            color: green;
+        }
+        .error{
+            color: red;
+        }
+        .large{
+            font-size: 30px;
+        }
+        .small{
+            font-size: 20px;
+        }
+        .pink{
+            color: palevioletred;
+        }
+        .big{
+            font-size: 32px;
+        }
+        .center{
+            text-align: center;
+        }
+
+        
+        #elem1{
+            color: red;
+        }
+        #elem2{
+            color: green;
+        }
+        #elem3{
+            color: aqua;
+        }
+
+        #elem h2{
+            text-decoration: underline;
+        }
+        .task11 #elem .text{
+            text-decoration: underline;
+        }
+        .task12 #elem p.text{
+            text-decoration: underline;
+        }
+        .task13 #elem li.text{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="eee">
+            <p class="bbb">Задание 1. В данном случае стили применены к дочерниму классу bbb</p> <!-- task 1 -->
+        </div>
+        <div class="eee">
+            <h2 class="bbb">Задание 2. стили применены к доченему селектору h2</h2> <!-- task 2 -->
+        </div>
+        <div class="eee">
+            <h2 class="bbb">Задание 3. стили применены к доченему классу bbb</h2> <!-- task 3 -->
+        </div>
+        <div class="eee">
+            <h3 class="bbb">Задание 4. Этот селектор выбирает h3 с классом bbb</h3>
+        </div>
+        <div class="eee">
+            <p class="bbb">Задание 5. Этот селектор выбирает тег p с классом bbb</p>
+        </div>
+        <div class="eee">
+            <div class="bbb">
+                <h4 class="kkk">Задание 6. Этот селектор выбирает класс kkk</h4> <br>
+            </div>
+        </div>
+
+        <p class="success large">Задание 7. зелёного цвета с шрифтом по больше</p>
+        <p class="error small">Задание 7. красного цвета с шрифтом по меньше</p>
+        <p class="error large">Задание 7. красного цвета с шрифтом по больше</p>
+        <p class="success small">Задание 7. зелёного цвета с шрифтом по меньше</p>
+
+        <div class="task8">
+            <p class="pink big center">Задание 8. этом парраграфе 3 класса</p>
+        </div>
+        <div class="task9">
+            <div id="elem1">
+                <h2>Заголовок</h2>
+                <p>Текст</p>
+                <p>Текст</p>
+            </div>
+            <div id="elem2">
+                <h2>Заголовок</h2>
+                <p>Текст</p>
+                <p>Текст</p>
+            </div>
+            <div id="elem3">
+                <h2>Заголовок</h2>
+                <p>Текст</p>
+                <p>Текст</p>
+            </div>
+        </div>
+
+        <div class="task10">
+            <div id="elem">
+                <h2>Выбрать</h2>
+                <p>Не выбирать</p>
+                <h2>Выбрать</h2>
+                <p>Не выбирать</p>
+            </div>
+        </div>
+
+        <div class="task11" style="margin-top: 4%;">
+            <div id="elem">
+                <p class="text">Выбрать</p>
+                <p class="text">Выбрать</p>
+                <ul>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="">Не выбирать</li>
+                    <li class="">Не выбирать</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="task12" style="margin-top: 4%;">
+            <div id="elem">
+                <p class="text">Выбрать</p>
+                <p class="text">Выбрать</p>
+                <ul>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="">Не выбирать</li>
+                    <li class="">Не выбирать</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="task13" style="margin-top: 4%;">
+            <div id="elem">
+                <p class="text">Выбрать</p>
+                <p class="text">Выбрать</p>
+                <ul>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="text">Выбрать</li>
+                    <li class="">Не выбирать</li>
+                    <li class="">Не выбирать</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

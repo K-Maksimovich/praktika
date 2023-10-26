@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lpr_8</title>
+    <style>
+        .task3 table{
+            width: 600px;
+            margin: 0 auto;
+        }
+        tr .left{
+            width: 150px;
+        }
+        .left, .right{
+            padding: 1%;
+        }
+        .block{
+            border: dashed black 1px;
+            display: inline-block;
+            padding: 3%;
+            margin: 0 2%;
+        }
+        .task{
+            margin-top: 5%;
+        }
+        .task9 table, .task10 table, .task12 table{
+            width: 400px;
+            height: 200px;
+            border-spacing: 0px;
+            border-collapse: collapse;
+        }
+        .task9 table tr td, th, .task10 table tr td, .task12 table tr td{
+            border: solid black 2px;
+        }
+        .tb2{
+            margin-top: 5%;
+            text-align: center;
+        }
+        .task11 table{
+            margin-left: 3%;
+            border-spacing: 0px;
+            border-collapse: collapse;
+        }
+        .task11{
+            display: flex;
+        }
+        .task11 table tr td{
+            border: solid black 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="main">
+        <div class="task1 task">
+            <p>
+                Юность, верность, красота, <br>
+                Прелесть сердца, чистота <br>
+                Здесь лежат, сомкнув уста. <br>
+
+            </p>
+            <p>
+                Феникс умер, и она <br>
+                Отошла, ему верна, <br>
+                В царство вечности и сна. <br>
+            </p>
+            <p>
+                Не бесплоден был, о нет, <br>
+                Брак, бездетный столько лет, - <br>
+                То невинности обет. <br>
+            </p>
+            <p>
+                Если верность иль - увы! - <br>
+                Красоту найдете вы - <br>
+                То обман, они мертвы. <br>
+                Ты, кто верен и любим, <br>
+                Помолись на благо им <br>
+                Перед камнем гробовым. <br>
+            </p>
+            <p>
+                Уильям Шекспир, пер. В. Левика
+            </p> <br>
+        </div>
+
+        <div class="task2 task"> <!-- del - Зачеркнуть   ins - Подчеркнуть  -->
+            <p>
+                Горизонтальный отступ от картинки до текста управляется <br> 
+                параметром hspace, он добавляет пустое пространство одновремнно <br> 
+                слева и справа от изображения. <ins>Поэтому</ins> рисунок от края окна будет <br> 
+                отстоять на значение, которое указано этим атрибутом по Горизонтали <br> 
+                <ins>выравнивается не строго по краю окна браузера, а отстоит от него на <br> 
+                некотором расстоянии, которое равно значению hspace.</ins>
+            </p>
+                В качестве фона можно указывать любое подходящее для этого <br> 
+                изображение в формате GIF, JPEG или PNG. Фон не должен отвлекать <br> 
+                внимание от текста при этом должен хорошо сочетаться. <del>Правильно <br> 
+                подобранный фон не отвлекает внимание от текста, хорошо <br> 
+                сочетается</del> с цветовой гаммой <ins>веб-</ins>страницы, при этом сам файл <br> 
+                желательно должен быть небольшим по объему, что бы быстро <br> 
+                <del>загружаться</del> <ins>загружался по сети.</ins>
+            <p></p>
+        </div>
+
+        <div class="task3 task"> <!-- table  -->
+            <h2 align="center">Задание 3</h2>
+            <table class="t3" border="1">
+                <tr>
+                    <td class="left" align="top">какой то текст</td>
+                    <td class="right">какой то текст</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="task4 task">
+            <h2 align="center">Задание 4</h2>
+            <div class="block" >
+                <h2>это заголовок</h2>
+                <h3>Это заголовок</h3>
+                <h4>Это заголовок</h4>
+                <h5>Это заголовок</h5>
+                <p>Это <b>абзац</b></p>
+                <p>это ещё <i>абзац</i></p>
+                <h1><i>Это заголовок h1</i></h1>
+
+            </div>
+        </div>
+
+        <div class="task5 task">
+            <h2 align="center">Задание 5</h2>
+            <div class="block">
+                <h1>Что такое CMS</h1>
+                <p>
+                    <b>CMS -</b> система управления контентом (<b>движок</b>) - написания PHP - <br>
+                    программистами основы для сайта, с помощью которой вы сможете управлять <br> 
+                    сайтом (добавлять контент, менять пункты меню и т.п.) не зная HTML и CSS.
+                </p>
+                <p>
+                    Однако для того что бы сделать сайт с помощью <b>CMS</b> <i>потребуются услуги</i> и <br> 
+                    программиста, и дизайнера и верстальщика. И капиталовложения. 
+                </p>
+                <h2>Какие бывают cms</h2>
+                <p>
+                    Бывают различные системы управления контентом: для интернет-магазинов, для <br> 
+                    блогов, для форумов и т.д.
+                </p>
+                <h3>Примеры cms</h3>
+                <p><i>Примеры популярных CMS: Joomla, Wordpress (для блогов), PhpBB (для форумов).</i></p>
+                <p><b>CMS-ки</b> бывают <i>платные</i> и <i>бесплатные</i></p>
+            </div>
+        </div>
+
+        <div class="task6 task">
+            <h1>Списки</h1>
+
+            <h2 class="title">Список цветов</h2>
+            <ul>
+                <li>Красный</li>
+                <li>Желтый</li>
+                <li>Зеленый</li>
+                <li>Синий</li>
+            </ul>
+
+            <h2 class="title">Список студентов</h2>
+            <ol>
+                <li>Иванов</li>
+                <li>Петров</li>
+                <li>Сидоров</li>
+                <li>Николаев</li>
+            </ol>
+
+            <h2 class="title">Список студентов</h2>
+            <ol>
+                <li> Иванов
+                    <ul type="cyrcle">
+                        <li>Возраст - 23 года</li>
+                        <li>Курс - 3</li>
+                    </ul>
+                </li>
+                <li> Петров
+                    <ul type="cyrcle">
+                        <li>Возраст - 19 лет</li>
+                        <li>Курс - 2</li>
+                    </ul>
+                </li>
+                <li> Сидоров
+                    <ul type="cyrcle">
+                        <li>Возраст - 18 лет</li>
+                        <li>Курс - 1</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="task7 task">
+            <div class="block">
+                <h1>Что нужно знать, что бы делать сайты</h1>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Flash</li>
+                    <li>SEO</li>
+                </ol>
+                <h2>PHP и JavaScript</h2>
+                <p>
+                    Языки программирования <b>PHP</b> и <b>JavaScript</b> позволяют сделать сайт динамичным, то есть  <br> 
+                    реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку  <br>
+                    или слайдер
+                </p>
+                <h2>Виды скриптов</h2>
+                <p>
+                    Для этого пишутся скрипты (англ. script - 《сценарий》) - программы, позволяющие реагировать на  <br> 
+                    действия пользователя. Скрипты бывают двух видов:  <br>
+                    <ul>
+                        <li>
+                            те, которые выполняются на  сервере, а результат их выполнения приходит в браузер к  <br> 
+                            пользователю уже в готовом виде. Эти скрипты написаные на Языке <b>PHP</b>. На нём пишуться <br> 
+                            <b>CMS-ки</b> - системы управления контентом.
+                        </li>
+                        <li>
+                            те, которые выполняются прямо в браузере пользователя. Это скрипты написаные на языке <br> 
+                            <b>JavaScript</b>. Они чаще всего используются для того, что бы сделать странницу более удобной и <br>
+                            красивой.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="task8 task">
+
+            <table border="1">
+                <tr>
+                    <td>ячейка 1</td>
+                    <td>ячейка 2</td>
+                    <td>ячейка 3</td>
+                </tr>
+                <tr>
+                    <td>ячейка 4</td>
+                    <td>ячейка 5</td>
+                    <td>ячейка 6</td>
+                </tr>
+                <tr>
+                    <td>ячейка 7</td>
+                    <td>ячейка 8</td>
+                    <td>ячейка 9</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="task9 task">
+            <table>
+                <tr>
+                    <th>ячейка 1</th>
+                    <th>ячейка 2</th>
+                    <th>ячейка 3</th>
+                </tr>
+                <tr>
+                    <td>ячейка 4</td>
+                    <td>ячейка 5</td>
+                    <td>ячейка 6</td>
+                </tr>
+                <tr>
+                    <td>ячейка 7</td>
+                    <td>ячейка 8</td>
+                    <td>ячейка 9</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="task10 task">
+            <table class="tb1">
+                <tr>
+                    <th>ячейка 1</th>
+                    <th>ячейка 2</th>
+                    <th>ячейка 3</th>
+                </tr>
+                <tr>
+                    <td align="right">ячейка 4</td>
+                    <td>ячейка 5</td>
+                    <td>ячейка 6</td>
+                </tr>
+                <tr>
+                    <td>ячейка 7</td>
+                    <td align="center">ячейка 8</td>
+                    <td align="right">ячейка 9</td>
+                </tr>
+            </table>
+
+            <table border="1" class="tb2">
+                <tr> <th>номер</th> <th>тег</th> <th>значение</th> </tr>
+
+                <tr> <td>1</td> <td>p</td> <td>абзац</td> </tr>
+
+                <tr> <td>2</td> <td>a</td> <td>ссылка</td> </tr>
+
+                <tr> <td>3</td> <td>b</td> <td>жирный текст</td> </tr>
+
+                <tr> <td>4</td> <td>i</td> <td>курсив</td> </tr>
+                
+                <tr> <td>5</td> <td>table</td> <td>таблица</td> </tr>
+
+                <tr> <td>6</td> <td>tr</td> <td>ряд таблицы</td> </tr>
+
+                <tr> <td>7</td> <td>td</td> <td>ячейка таблицы</td> </tr>
+
+                <tr> <td>8</td> <td>th</td> <td>заголовок таблицы</td> </tr>
+
+            </table>
+        </div>
+
+        <div class="task11 task">
+            <table border="2">
+                <tr>    <td colspan="2">ячейка 1</td>   <td>ячейка 3</td>   </tr>
+
+                <tr>    <td rowspan="2">ячейка 4</td>   <td>ячейка 5</td>   <td>ячейка 6</td>   </tr>
+
+                <tr>    <td>ячейка 8</td>   <td>ячейка 9</td>   </tr>
+            </table>
+
+
+            <table border="2">
+                <tr>    <td colspan="3">ячейка 1</td>   </tr>
+
+                <tr>    <td>ячейка 4</td>   <td rowspan="2">ячейка 5</td>   <td>ячейка 6</td>   </tr>
+
+                <tr>    <td>ячейка 8</td>   <td>ячейка 9</td>   </tr>
+            </table>
+
+
+            <table border="2">
+                <tr>    <td rowspan="3">ячейка 1</td>   <td>ячейка 2</td>   <td rowspan="3">ячейка 3</td>   </tr>
+
+                <tr>    <td>ячейка 5</td>   </tr>
+
+                <tr>    <td>ячейка 8</td>   </tr>
+            </table>
+            
+        </div>
+
+        <div class="task12 task">
+            <table border="1" class="tb2">
+                <tr>
+                    <th rowspan="2">номер</th>
+                    <th colspan="2">теги</th>
+                </tr>
+                <tr>
+                    <th>тег</th>
+                    <th>значение</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>p</td>
+                    <td rowspan="4">Для текста</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>a</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>i</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>table</td>
+                    <td>таблица</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>tr</td>
+                    <td>ряд таблицы</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>td</td>
+                    <td rowspan="2">ячейка таблицы</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>th</td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+    
+</body>
+</html>

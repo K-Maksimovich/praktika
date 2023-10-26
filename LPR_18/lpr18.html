@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        .task1, .task2, .task3, .task4, .task5, .task7{
+            display: flex;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="task1">
+            <div id="b1"></div>
+            <div id="b2"><p>text text text</p></div>
+            <style>
+                .task1 #b1{
+                    background-color: rgba(74, 90, 236, 0.671);
+                    width: 100px;
+                    height: 100px;
+                    margin: 2%;
+                    padding: 2%;
+                }
+                .task1 #b2{
+                    background-color: rgba(95, 192, 95, 0.616);
+                    height: 100px;
+                    width: 150px;
+                    margin: 2% 2%;
+                    padding: 0 2% 2% 2%;
+                }
+                .task1 #b2 p{
+                    color: white;
+                    text-align: center;
+                    font-size: 22px;
+                }
+            </style>
+        </div>
+        <div class="task2">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <div id="b4"></div>
+            <style>
+                .task2 #b1{
+                    width: 200px;
+                    height: 120px;
+                    border: dotted red 3px;
+                    margin: 2%;
+                }
+                .task2 #b2{
+                    width: 200px;
+                    height: 100px;
+                    border: solid blue 3px;
+                    margin: 2%;
+                }
+                .task2 #b3{
+                    width: 200px;
+                    height: 120px;
+                    border: dashed yellow 3px;
+                    margin: 2%;
+                }
+                .task2 #b4{
+                    width: 200px;
+                    height: 120px;
+                    border: double blue 5px;
+                    margin: 2%;
+                }
+            </style>
+        </div>
+        <div class="task3">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <style>
+                .task3 #b1{
+                    width: 300px;
+                    height: 170px;
+                    border-top: 3px solid blue;
+                    border-left: 3px solid orange;
+                    border-bottom: 3px solid red;
+                    border-right: 3px solid green;
+                    margin: 2% 2%;
+                }
+                .task3 #b2{
+                    width: 300px;
+                    height: 170px;
+                    border-top: 1px solid blue;
+                    border-left: 3px solid red;
+                    border-bottom: 1px solid blue;
+                    border-right: 3px dotted green;
+                    margin: 2% 2%;
+                }
+            </style>
+        </div>
+        <div class="task4">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <style>
+                .task4 #b1{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 20%;
+                    border: 2px solid green;
+                    margin: 2%;
+                }
+                .task4 #b2{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 20%;
+                    margin: 2%;
+                    background-color: rgb(44, 207, 107);
+                }
+                .task4 #b3{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    border: 2px solid green;
+                    margin: 2%;
+                }
+            </style>
+        </div>
+        <div class="task5">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <style>
+                .task5 #b1{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 8% 20% 30% 40%;
+                    border: 2px solid green;
+                    margin: 2%;
+                }
+                .task5 #b2{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 8% 20%;
+                    border: 2px solid green;
+                    margin: 2%;
+                }
+                .task5 #b3{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 8% 20% 15% 20%;
+                    border: 2px solid green;
+                    margin: 2%;
+                }
+            </style>
+        </div>
+        <div class="task6">
+            <div id="img"></div>
+            <style>
+                .task6{
+                    width: 800px;
+                    height: 400px;
+                    border: 1px solid black;
+                }
+                .task6 #img{
+                    background-image: url(bg_img.jpg);
+                    width: 800px;
+                    height: 200px;
+                }
+            </style>
+        </div>
+        <div class="task7">
+            <div id="b1"> <div id="bb1"></div> </div>
+            <div id="b2">
+                <div id="bb1"> <div id="bb2"> </div> </div> 
+            </div>
+            <style>
+                .task7 #b1{
+                    width: 300px;
+                    height: 300px;
+                    border: dashed blue 2px;
+                    margin: 2%;
+                }
+                .task7 #b1 #bb1{
+                    width: 200px;
+                    height: 200px;
+                    border: solid orange 2px;
+                    margin: 15% auto;
+                }
+                .task7 #b2{
+                    width: 400px;
+                    height: 300px;
+                    border: dashed blue 2px;
+                    margin: 2%;
+                }
+                .task7 #b2 #bb1{
+                    width: 80%;
+                    height: 80%;
+                    border: dashed green 2px;
+                    margin: 7% auto;
+                }
+                .task7 #b2 #bb1 #bb2{
+                    width: 75%;
+                    height: 75%;
+                    border: solid red 2px;
+                    margin: 9% auto;
+                }
+            </style>
+        </div>
+        <div class="task8">
+            <div id="b1"><div id="bb1"></div></div>
+            <div id="b2"><div id="bb2"></div></div>
+            <div id="b3"><div id="bb3"></div></div>
+            <style>
+                .task8 #b1{
+                    width: 300px;   height: 400px;
+                    border: 2px solid red;
+                    margin: 2%;
+                }
+                .task8 #b1 #bb1{
+                    width: 50%;     height: 40%;
+                    border: 2px solid green;
+                    margin: 28% auto;
+                }
+                .task8 #b2{
+                    width: 300px;   height: 300px;
+                    border: 2px solid red;
+                    margin: 2%;
+                }
+                .task8 #b2 #bb2{
+                    width: 80%;     height: 50%;
+                    border: 2px solid green;
+                    margin: 25% auto;
+                }
+                .task8 #b3{
+                    width: 400px;   height: 300px;
+                    border: 2px solid red;
+                    margin: 2%;
+                }
+                .task8 #b3 #bb3{
+                    width: 30%;     height: 70%;
+                    border: 2px solid green;
+                    margin: 10% auto;
+                }
+            </style>
+        </div>
+        <div class="task9">
+            <div id="b1">
+                <p id="p1">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam et laudantium officiis quas aperiam totam dolorum cumque assumenda porro expedita! 
+                    Cupiditate rerum laudantium amet impedit odit sunt aperiam deserunt voluptatum!Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div id="b2">
+                <p id="p1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi nemo saepe dolores eos reprehenderit, 
+                    harum sint esse totam numquam aliquid quaerat recusandae at doloribus accusantium? Mollitia, similique facere! Ab!
+                </p>
+                <p id="p2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, vitae deserunt debitis rem iste, at illo quas, 
+                    quidem odio quo totam maxime quae ipsa nam doloremque nostrum aspernatur voluptatum molestiae!
+                </p>
+            </div>
+            <div id="b3">
+                <p id="p1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis iure illum voluptatem fugit. Pariatur laudantium facere amet, 
+                    sint molestiae minus distinctio suscipit, quae in incidunt inventore ratione recusandae id placeat.
+                </p>
+            </div>
+            <style>
+                .task9{
+                    display: flex;  justify-content: space-around;
+                }
+                #b1 #p1, #b2 #p1, #b2 #p2, #b3 #p1{text-align: justify;}
+                .task9 #b1 #p1{
+                    width: 180px;   height: 230px;
+                    padding: 25% 25%;
+                    border: 2px solid red;
+                }
+                .task9 #b2 #p1{
+                    width: 400px;   height: 70px;
+                    padding: 7% 5%;
+                    border: 2px solid green;
+                }
+                .task9 #b2 #p2{
+                    width: 240px;   height: 110px;
+                    padding: 3% 5%;
+                    border: 2px solid red;
+                    margin: 0 10%;
+                }
+                .task9 #b3 #p1{
+                    width: 170px;   height: 210px;
+                    padding: 30% 15%;
+                    border: 2px solid red;
+                }
+            </style>
+        </div>
+    </main>
+</body>
+</html>

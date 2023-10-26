@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lpr_9</title>
+    <style>
+        .main{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .form{
+            display: flex;
+            margin: 0 auto;
+        }
+        .form input{
+            border-style: none;
+            border-bottom: solid black 2px;
+            width: 80%;
+            margin-bottom: 2%;
+        }
+        input{
+            border-style: none;
+            border-bottom: solid black 2px;
+            font-size: 25px;
+        }
+        p{
+            font-size: 25px;
+        }
+        table{
+            border-spacing: 0px;
+            border-collapse: collapse;
+        }
+        th{
+            border: solid black 1px;
+            text-align: center;
+            padding: 0.2%;
+            background-color: #2da7c5;
+            color: #d67ca2;
+            font-size: 20px;
+        }
+        td{
+            border: solid black 1px;
+            text-align: center;
+            padding: 2%;
+            background-color: #385e7e;
+        }
+        .form2{
+            display: flex;
+        }
+        .form2 input{
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+        #day, #year{
+            width: 3%;
+        }
+        #month{
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <h1 align="center">ЗАЯВКА</h1>
+        <div class="form">  <p>на участие </p> <input type="text">  </div>
+        <p class="text">
+            во втором этапе конкурса по предмету 《Прикладная информатика》. Для участия в конкурсе <br>
+            направляются: 
+        </p>
+        <table border="1">
+            <tr>
+                <th>№ п/п</th> <th>Ф.И.О</th> <th>Наименование учереждения образования</th> <th>Курс</th>
+                <th>Место в конкурсе</th>   <th>Ф.И.О., руководителя команды</th>
+            </tr>
+
+            <tr>
+                <td></td>   <td></td>   <td></td>   <td></td>   <td></td>   <td></td>
+            </tr>
+
+            <tr>
+                <td></td>   <td></td>   <td></td>   <td></td>   <td></td>   <td></td>
+            </tr>
+
+            <tr>
+                <td></td>   <td></td>   <td></td>   <td></td>   <td></td>   <td></td>
+            </tr>
+
+        </table>
+        <div class="form2">
+            <p>Директор</p> <input type="text"> <input type="text">
+        </div>
+        <p>
+            《 <input type="text" id="day"> 》 <input type="text" id="month"> 20 <input type="text" id="year"> г.
+        </p>
+    </main>
+</body>
+</html>

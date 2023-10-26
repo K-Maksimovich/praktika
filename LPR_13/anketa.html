@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa abiturenta</title>
+    <style>
+        .df{
+            display: flex;
+        }
+        .block{
+            margin-right: 5%;
+        }
+        .but{
+            margin-top: 3%;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <form action="">
+            <p><b>Фамилия: </b> <input type="text" size="30"></p>   
+            <p><b>Имя: </b> <input type="text" size="30"></p>
+            <p><b>Отчество: </b> <input type="text" size="30"></p>  
+            <p><u>Дата рождения: </u></p>
+            <input type="date" name="" id="">
+            <p><u><b>Закончил школу: </b></u>
+                <input type="radio" name="" id="">Городскую<input type="radio" name="" id="">Сельскую
+            </p>
+            <p><b><u>Поступает на базе: </u></b>
+                <input type="radio" name="" id="">9 классов <input type="radio" name="" id="">11 классов
+            </p>
+            <div class="df">
+                <div class="block">
+                    <p><u><b>Форма обучения:</b></u></p> 
+                    <select name="" id="">  <option value="">Очная</option> <option value="">Заочная</option>   </select>
+                </div>
+                <div class="block">
+                    <p><u><b>Язык обучения:</b></u></p>
+                    <select name="" id="">  <option value="">Русский</option>   <option value="">Казахский</option>   </select>
+                </div>
+                <div class="block">
+                    <p><b><u>Специальность:</u></b></p>
+                    <select name="" id="">  <option value="">ВТиПО</option> <option value="">СИБ</option>   <option value="">ТЭ</option>    </select>
+                </div>
+            </div>
+            <p><u><b>Перечень документов (отметить нужное)</b></u></p>
+            <i> <input type="checkbox" name="" id="">аттестат 
+                <input type="checkbox" name="" id="">удостоверение личности 
+                <input type="checkbox" name="" id="">медсправка по форме 086-у 
+                <input type="checkbox" name="" id="">фото 3х4 <input type="checkbox" name="" id="">заявление 
+            </i>
+            <p><u><b>Результаты вступительных экзаменов:</b></u></p>
+            <input type="radio" name="" id=""> от 4,5 до 5,0 баллов     
+            <input type="radio" name="" id=""> от 4,0 до 4,5 баллов     
+            <input type="radio" name="" id=""> от 3,5 до 4,0 баллов     
+            <input type="radio" name="" id=""> от 3,0 до 3,5 баллов 
+            <input type="radio" name="" id=""> не набрали проходной балл
+            <p><u><b>Почему Вы выбираете наш колледж</b></u></p>
+            <input type="checkbox" name="" id="">В этом колледже обучались мои родители, родственники <br> 
+            <input type="checkbox" name="" id="">Близость колледжа к дому <br> 
+            <input type="checkbox" name="" id="">Перспективные, востребованные Специальности <br>
+            <input type="checkbox" name="" id="">Возможность хорошо устроиться на работу <br>
+            <input type="checkbox" name="" id="">Выбор случаен <br>
+            <input type="submit" value="Отправить данные" class="but"> <input type="submit" value="Очистить данные" class="but">
+        </form>
+    </main>
+</body>
+</html>
